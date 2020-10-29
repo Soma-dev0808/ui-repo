@@ -1,0 +1,41 @@
+.btn {    
+    color: white;
+    background-color: rgb(52,165,94);
+    padding: 0.4em 1em;
+    border-radius: 0.5em;
+    font-weight: bold;
+}
+.btn-login {
+    font-size: 1rem;
+}
+
+/* お買い物ボタン用 */
+a.btn--green {
+  color: #fff;
+  background-color: rgb(52,165,94);
+}
+a.btn--green.btn--cubic {
+  border-bottom: 5px solid #00662d;
+}
+a.btn--green.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #00662d;
+}
+a.btn-c {
+  font-size: 1.5rem;
+  position: relative;
+  padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+  border-radius: 5vh;
+}
+a.btn-c i.fa {
+  margin-right: 1rem;
+}
+.btn-top-cart {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* お買い物ボタン用 */
