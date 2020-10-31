@@ -1,11 +1,17 @@
 #container {
-    min-width: 980px;
+  min-width: 980px;
+  position: relative;
+  min-height: 100%;
 }
 .l-content-fixed {
-    width: 980px;
-    margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 }
 .l-content-expanded {
-    width: auto;
-    margin: 0;
+  width: auto;
+  margin: 0;
+}
+
+.l-main {
+  padding-bottom: 189px;
 }
